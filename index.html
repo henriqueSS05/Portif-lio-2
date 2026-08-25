@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Henrique Soares — Backend Developer</title>
+<meta name="description" content="Portfólio de Henrique Soares, desenvolvedor backend com foco em Java, Node.js e MySQL.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles"></span>
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top">
+      <span class="nav__bracket">&lt;</span>H<span class="nav__bracket">/&gt;</span>
+      <span class="nav__brand-text">henrique<span class="nav__dot">.</span>dev</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="nav__status">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>Disponível</span>
+    </div>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>pronto para novas oportunidades</p>
+        <h1 class="hero__title">
+          Construo sistemas backend confiáveis e interfaces que <span class="highlight">funcionam de verdade.</span>
+        </h1>
+        <p class="hero__lede">
+          Sou Henrique, desenvolvedor formado em Análise e Desenvolvimento de Sistemas.
+          Trabalho principalmente com Java, Node.js e bancos de dados relacionais, e também
+          domino o front-end o suficiente para entregar produtos completos — do banco de dados
+          até a tela do usuário.
+        </p>
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Falar comigo</a>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="photo-frame">
+          <img src="https://portif-lio-2-eta.vercel.app/henrique.jpg" alt="Foto de Henrique Soares" loading="eager">
+        </div>
+
+        <div class="console" id="bootConsole">
+          <div class="console__bar">
+            <span class="console__dot console__dot--r"></span>
+            <span class="console__dot console__dot--y"></span>
+            <span class="console__dot console__dot--g"></span>
+            <span class="console__title">status.sh</span>
+          </div>
+          <div class="console__body" id="consoleBody" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section" id="sobre">
+    <div class="section__head">
+      <p class="section__eyebrow">01 — Sobre</p>
+      <h2 class="section__title">Quem escreve o código</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__text">
+        <p>
+          Meu nome é Henrique Soares, formado em Análise e Desenvolvimento de Sistemas e
+          apaixonado por tecnologia. Minha jornada é movida pela busca constante por
+          conhecimento técnico, boas práticas de desenvolvimento e aperfeiçoamento contínuo.
+        </p>
+        <p>
+          Tenho foco em desenvolvimento <strong>Backend</strong>, com experiência em Java,
+          bancos de dados relacionais e construção de APIs. Também atuo com HTML, CSS,
+          JavaScript e Git, o que me permite participar de um projeto do início ao fim.
+        </p>
+        <p>
+          Além do desenvolvimento de software, presto serviços de manutenção e suporte técnico
+          para celulares, notebooks e computadores — o que trouxe uma visão prática sobre
+          hardware, redes e infraestrutura que carrego para dentro de cada sistema que construo.
+        </p>
+
+        <ul class="tags">
+          <li>Clean Architecture</li>
+          <li>Performance Tuning</li>
+          <li>UX Engineering</li>
+          <li>Cloud Native</li>
+        </ul>
+      </div>
+
+      <aside class="info-panel">
+        <div class="info-panel__bar">
+          <span class="console__dot console__dot--r"></span>
+          <span class="console__dot console__dot--y"></span>
+          <span class="console__dot console__dot--g"></span>
+          <span class="console__title">whoami --verbose</span>
+        </div>
+        <dl class="info-panel__list">
+          <div><dt>Nome</dt><dd>Henrique Soares</dd></div>
+          <div><dt>Cargo</dt><dd>Backend Developer</dd></div>
+          <div><dt>Formação</dt><dd>Análise e Desenv. de Sistemas</dd></div>
+          <div><dt>Stack principal</dt><dd>Java · MySQL</dd></div>
+          <div><dt>Também atua em</dt><dd>Suporte técnico &amp; manutenção</dd></div>
+          <div><dt>Base</dt><dd>Paraná, BR (Remote)</dd></div>
+          <div><dt>Status</dt><dd class="ok">Disponível para projetos</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS ============ -->
+  <section class="section" id="projetos">
+    <div class="section__head">
+      <p class="section__eyebrow">02 — Projetos</p>
+      <h2 class="section__title">O que eu já construí</h2>
+      <p class="section__desc">
+        Projetos pessoais e em grupo, incluindo aplicações web, sistemas de backend e
+        contribuições open-source. Cada um reflete cuidado com código, experiência do
+        usuário e decisões técnicas conscientes.
+      </p>
+    </div>
+
+    <div class="projects" id="projectsGrid">
+      <!-- injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section__head">
+      <p class="section__eyebrow">03 — Skills</p>
+      <h2 class="section__title">Ferramentas que eu domino</h2>
+    </div>
+
+    <div class="skills">
+      <article class="skill-card">
+        <header>
+          <span class="skill-card__icon" aria-hidden="true">◧</span>
+          <h3>Front-end</h3>
+        </header>
+        <ul class="chip-list">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <header>
+          <span class="skill-card__icon" aria-hidden="true">◨</span>
+          <h3>Back-end</h3>
+        </header>
+        <ul class="chip-list">
+          <li>Java</li>
+          <li>MySQL</li>
+          <li>APIs REST</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <header>
+          <span class="skill-card__icon" aria-hidden="true">◩</span>
+          <h3>Infraestrutura</h3>
+        </header>
+        <ul class="chip-list">
+          <li>Configuração de DNS</li>
+          <li>Docker</li>
+          <li>CI/CD Pipelines</li>
+          <li>AWS</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="section section--contact" id="contato">
+    <div class="section__head">
+      <p class="section__eyebrow">04 — Contato</p>
+      <h2 class="section__title">Vamos construir algo sólido juntos</h2>
+      <p class="section__desc">
+        Me conte como o seu projeto deve ser. Eu respondo por e-mail ou WhatsApp,
+        o que for melhor pra você.
+      </p>
+    </div>
+
+    <div class="contact">
+      <div class="contact__info">
+        <a class="contact__row" href="mailto:souzarik659@gmail.com">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">souzarik659@gmail.com</span>
+        </a>
+        <a class="contact__row" href="https://wa.me/5544991768313?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portif%C3%B3lio." target="_blank" rel="noopener">
+          <span class="contact__label">WhatsApp</span>
+          <span class="contact__value">+55 44 99176-8313</span>
+        </a>
+        <div class="contact__row contact__row--static">
+          <span class="contact__label">Localização</span>
+          <span class="contact__value">Paraná, BR (Remote)</span>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/henriqueSS05" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/henrique-s-1241362b6" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="https://instagram.com/henrique.srs_" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="console__bar contact-form__bar">
+          <span class="console__dot console__dot--r"></span>
+          <span class="console__dot console__dot--y"></span>
+          <span class="console__dot console__dot--g"></span>
+          <span class="console__title">nova_mensagem.json</span>
+        </div>
+
+        <div class="field">
+          <label for="name">Nome completo</label>
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Como você se chama">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="seu@email.com">
+        </div>
+
+        <div class="field">
+          <label for="subject">Assunto</label>
+          <input type="text" id="subject" name="subject" placeholder="Sobre o que você quer falar">
+        </div>
+
+        <div class="field">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="5" placeholder="Conte os detalhes do seu projeto"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block">Enviar mensagem</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__bracket">&lt;</span>H<span class="nav__bracket">/&gt;</span>
+      <div>
+        <strong>Henrique Soares</strong>
+        <p>Backend Developer</p>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Henrique Soares. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<a class="whatsapp-fab" href="https://wa.me/5544991768313?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portif%C3%B3lio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+</a>
+
+<script src="script.js"></script>
+<a href="https://wa.me/44991768313" class="whatsapp-float" target="_blank">
+    <img src="zap.png">
+</a>
+</body>
+</html>
