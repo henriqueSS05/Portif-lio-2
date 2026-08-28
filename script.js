@@ -48,7 +48,7 @@ const PROJECTS = [
     title: 'Zyntek Conect',
     description: 'Estúdio digital que desenvolve sites, sistemas e landing pages com foco em inovação, qualidade e resultado para o cliente.',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    image: 'https://portif-lio-2-eta.vercel.app/zyntek.jpeg',
+    image: 'zyntek.png',
     link: 'https://www.zyntekconnect.com.br/',
     linkLabel: 'Visitar site'
   },
@@ -67,20 +67,26 @@ const PROJECTS = [
     description: 'Sistema completo de gerenciamento de usuários com funcionalidades de cadastro, login e recuperação de senha.',
     stack: ['Java', 'Spring Boot', 'MySQL'],
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDeeV3G6wev8ADSP0PgWXJi-gAvRM7HJmfj5igsDypP9IXqkWQJlc3RxUxYp2OSRQN5oyllqi4wd7hzPbe4yxiRT4TWxtbZADFF7fZ8axaSVLzqzIeHKHVSd9AHBQmuk0wITPOdeoW5Hb1OFUtXDVcidBTida4iaX-Cw6agW9M3AOVcG43hcQeN-LoJrHo99x3qX7u0H970-OLS01vwQLBAcgoN2KIvvg8zE4HVEPZjrprdVwLkJ4d3pNWJwpQdljcHcsdJ2nhSGl8',
-    link: 'https://portif-lio-2-eta.vercel.app/flux.html',
+    link: 'https://github.com/henriqueSS05/flux',
     linkLabel: 'Ver repositório',
-    link2: 'https://github.com/henriqueSS05/flux',
-    linkLabel2: 'Ver repositório'
   },
   {
     title: 'Sistema de Barbearia',
     description: 'Sistema completo de agendamento para barbearias e controle de clientes.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDeeV3G6wev8ADSP0PgWXJi-gAvRM7HJmfj5igsDypP9IXqkWQJlc3RxUxYp2OSRQN5oyllqi4wd7hzPbe4yxiRT4TWxtbZADFF7fZ8axaSVLzqzIeHKHVSd9AHBQmuk0wITPOdeoW5Hb1OFUtXDVcidBTida4iaX-Cw6agW9M3AOVcG43hcQeN-LoJrHo99x3qX7u0H970-OLS01vwQLBAcgoN2KIvvg8zE4HVEPZjrprdVwLkJ4d3pNWJwpQdljcHcsdJ2nhSGl8',
-    link: 'https://portif-lio-2-eta.vercel.app/flux.html',
-    linkLabel: 'Ver repositório',
+    link: 'https://github.com/henriqueSS05/flux',
+    linkLabel: 'Ver site',
     link2: 'https://github.com/henriqueSS05/flux',
     linkLabel2: 'Ver repositório'
+  },
+  {
+    title: 'Marsil Marcenaria',
+    description: 'Site institucional para marcenaria, apresentando serviços, portfólio e informações de contato.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    image: 'marsil.png',
+    link: 'https://marsil-marcenaria.vercel.app/',
+    linkLabel: 'Ver site',
   }
 ];
 
