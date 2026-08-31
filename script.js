@@ -129,7 +129,7 @@ function initBootConsole(){
 
   const script = [
     { type: 'prompt', text: 'whoami' },
-    { type: 'out',    text: 'Henrique Soares — Backend Developer' },
+    { type: 'out',    text: 'Henrique Soares — Full Stack Developer' },
     { type: 'prompt', text: 'stack --list' },
     { type: 'out',    text: 'Java · Node.js · MySQL · HTML/CSS/JS' },
     { type: 'prompt', text: 'status --check' },
