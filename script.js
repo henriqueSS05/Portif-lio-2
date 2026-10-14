@@ -87,6 +87,14 @@ const PROJECTS = [
     image: 'marsil.png',
     link: 'https://marsil-marcenaria.vercel.app/',
     linkLabel: 'Ver site',
+  },
+  {
+    title: 'Sistema de OS para assistência técnica',
+    description: 'Sistema de controle de serviços em assistência técnica e lançamento de OS em PDF para o cliente.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    image: 'assis.png',
+    link: 'https://github.com/henriqueSS05/demo-os-assistencia',
+    linkLabel: 'Ver repositório',
   }
 ];
 
